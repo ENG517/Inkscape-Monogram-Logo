@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_monogram_logo">
+  <title>Create a Monogram</title>
+  <shortdesc conref="../concepts/c_monogram_difficulties.dita#c_shortdesc_monogram_difficulties"></shortdesc>
+  
+  <taskbody>
+    <prereq>
+      <ul>
+        <li>Inkscape</li>
+        <li>Document Properties: 1:1 ratio; 1080px Width x 1080px Height</li>
+      </ul>
+    </prereq>
+    <steps>
+      <step>
+        <cmd>
+          Create a circle with the <uicontrol><image href="../assets/images/ui/ellipse.png" width="10px"></image> Ellipse</uicontrol> tool.
+        </cmd>
+        <!-- Note the novice flag here for these substeps -->
+        <substeps audience="novice">
+          <substep>
+            <cmd>
+              Press and hold the <uicontrol>Control</uicontrol> key as you click into the grid and drag your mouse.
+            </cmd>
+          </substep>
+          <substep>
+            <cmd>
+              Select the <uicontrol><image href="../assets/images/ui/ellipse.png" width="10px"></image> Ellipse</uicontrol> tool.
+            </cmd>
+          </substep>
+          <substep>
+            <cmd>
+              Create a circle by pressing and holding the <uicontrol>Control</uicontrol> key as you click into the grid and drag your mouse.
+            </cmd>
+            <stepresult>
+              <image href="../assets/images/step-results/mg-draw-ellipse.png" width="150px"></image>
+            </stepresult>
+          </substep>
+          <substep importance="optional">
+            <cmd>
+              Use the resize arrows and movement tool to make any adjustments to your circle.
+            </cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>
+          Duplicate the circle by pressing <uicontrol>Control-D</uicontrol> (Windows/PC) or <uicontrol>Command-D</uicontrol> (Mac)
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Resize the duplicated circle by pressing and holding <uicontrol>Control-Shift</uicontrol> (Windows/PC) or <uicontrol>Command-Shift</uicontrol> (Mac), while you click one of the corner arrows to resize it.
+        </cmd>
+        <stepresult>
+          <note>Make sure it snaps to one of the grid lines.</note>
+          <image href="../assets/images/step-results/mg-duplicate-circle.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Select all of the paths on the canvas, then select the <uicontrol><image href="../assets/images/ui/shape-builder.png" width="10px"></image> Shape Builder</uicontrol> tool.
+        </cmd>
+        <stepresult>
+          <note>
+            If you selected the <uicontrol>Shape Builder</uicontrol> tool, your canvas should darken and any area between lines on your grid should be highlighted upon hover with your cursor.
+          </note>
+          <image href="../assets/images/step-results/mg-shape-builder-hover.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Create your monogram letters by clicking each cell to fill the desired grid spaces.
+        </cmd>
+        <stepresult>
+          <note>
+            By clicking each cell, one at a time, you can then also <uicontrol>Undo</uicontrol> any mistakes by pressing <uicontrol>Control-Z</uicontrol> (Windows/PC) or <uicontrol>Command-Z</uicontrol> (Mac) without losing your entire path.
+          </note>
+          <div>
+            <image href="../assets/images/step-results/mg-draw-letter-1.png" width="150px"></image>
+            <image href="../assets/images/step-results/mg-draw-letter-2.png" width="150px"></image>
+          </div>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Check the resulting monogram by selecting the <uicontrol><image href="../assets/images/ui/selector.png" width="10px"></image> Selector</uicontrol> tool.
+        </cmd>
+        <stepresult>
+          <div>
+            <image href="../assets/images/step-results/mg-monogram-result.png" width="150px"></image>
+          </div>
+        </stepresult>
+      </step>
+      <step importance="optional">
+        <cmd>
+          After selecting the monogram, the entire set of paths will be selected, so you can change some of its properties, such as its <uicontrol>Fill</uicontrol> and <uicontrol>Stroke</uicontrol>.
+        </cmd>
+        <stepxmp>
+          <div>
+            <image href="../assets/images/ui/fill-stroke-properties.png" width="75px"></image>
+            <image href="../assets/images/step-results/mg-black-fill-example.png" width="150px"></image>
+          </div>
+        </stepxmp>
+      </step>
+    </steps>
+  </taskbody>
+</task>

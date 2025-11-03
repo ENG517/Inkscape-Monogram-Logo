@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="m_main_map">
+  <title>Create a Monogram Logo in Inkscape</title>
+  <topicgroup collection-type="sequence">
+    <topicref audience="expert" href="concepts/c_what_are_monograms.dita" />
+    <topicref href="tasks/t_create_shape_builder_grid.dita" />
+    <topicref href="tasks/t_create_monogram.dita" />
+    <topicref href="concepts/c_different_grids_different_results.dita" />
+  </topicgroup>
+</map>

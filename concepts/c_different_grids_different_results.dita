@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_monogram_difficulties">
+  <title>Different Grids Yield Different Results</title>
+  <shortdesc id="c_shortdesc_monogram_difficulties">
+    The type of grid that you create will support different types of shapes to build with Inkscape's Shape Builder tool.
+  </shortdesc>
+  <conbody>
+    <section audience="expert">
+      <title>Expert-Level Conceptual Material Here</title>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam maiores fugiat ipsam, repellendus enim cupiditate. Beatae magnam qui magni tempore vitae porro, eum laboriosam autem corrupti illum maxime sed consequatur commodi nam illo nesciunt.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur ipsa a minus aliquid iure architecto recusandae corporis aspernatur, officia repellat eligendi itaque, alias asperiores reiciendis doloribus fuga porro illo esse voluptas exercitationem. Cumque sint optio quas id impedit similique aperiam molestiae amet. Tenetur, repellat eius soluta neque nulla minus.
+      </p>
+    </section>
+    <section>
+      <title>Any-Level Conceptual Material Here</title>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam maiores fugiat ipsam, repellendus enim cupiditate. Beatae magnam qui magni tempore vitae porro, eum laboriosam autem corrupti illum maxime sed consequatur commodi nam illo nesciunt.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur ipsa a minus aliquid iure architecto recusandae corporis aspernatur, officia repellat eligendi itaque.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur ipsa a minus aliquid iure architecto recusandae corporis aspernatur, officia repellat eligendi itaque.
+      </p>
+    </section>
+  </conbody>
+</concept>

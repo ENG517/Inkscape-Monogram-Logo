@@ -1,0 +1,256 @@
+##########################################################
+# PDF THEME
+ 
+# Main Docs: https://www.dita-ot.org/4.2/topics/pdf-themes
+# Styles: https://www.dita-ot.org/4.2/resources/theme/styles
+# Variables: https://www.dita-ot.org/dev/resources/theme/variables
+# Sample: https://www.dita-ot.org/dev/topics/sample-pdf-theme.html
+
+##########################################################
+
+# ↓ add-brand-colors ↓
+brand:
+  color:
+    primary: '#005687' #Dark Blue
+    primaryshade:
+      s1: '#e1f5fe'
+      s2: '#b3e5fc'
+      s3: '#4fc3f7'
+      s4: '#0288d1'
+      s5: '#186cb8'
+    secondary: '#f44336' #Dark Red
+    secondaryshade:
+      s1: '#ffdde0'
+      s2: '#ffcdd2'
+      s3: '#ef9a9a'
+      s4: '#d32f2f'
+      s5: '#b71c1c'
+    tertiary: '#f1b211' #Golden rod yellow
+    tertiaryshade:
+      s1: '#f9f1dc'
+      s2: '#f4dea7'
+      s3: '#f2cb69'
+      s4: '#f0bb34'
+      s5: '#e4a80b'
+    neutrals:
+      s1: '#f2f2f2'
+      s2: '#e8e9e9'
+      s3: '#d1d3d4'
+      s4: '#babdbf'
+      s5: '#808488'
+      s6: '#666a6d'
+      s7: '#4d5052'
+      s8: '#212122'
+# ↑ end-brand-colors ↑
+
+# ↓ add-font-stacks ↓
+font:
+  sans: 'Poppins, Tahoma, Arial Unicode MS, Batang, SimSun'
+  serif: 'Exo 2, Times New Roman, Times, Arial Unicode MS, Tahoma, Batang, SimSun'
+  monospaced: 'Roboto Mono, Courier New, Courier, Arial Unicode MS, Tahoma, Batang, SimSun'
+  copysize: 11pt
+# ↑ end-font-stacks ↑
+
+# ↓ add-page-settings ↓
+# Docs: https://www.dita-ot.org/4.2/resources/theme/page-settings
+page:
+  size: Letter
+  mirror-margins: true
+# ↑ end-page-settings ↑
+
+# ↓ add-header-setup ↓
+header:
+  color: $brand-color-primary
+  display-align: before
+  end-indent: 10mm
+  font-family: $font-serif
+  padding-after: 6pt
+  padding-before: 12pt
+  start-indent: 10mm
+  odd:
+    content: '{chapter}'
+    text-align: end
+  even:
+    content: '{title}'
+    text-align: start
+# ↑ end-header-setup ↑
+
+# ↓ add-footer-setup ↓
+footer:
+  color: $brand-color-primary
+  end-indent: 10mm
+  font-family: $font-sans
+  padding-after: 12pt
+  padding-before: 6pt
+  start-indent: 10mm
+  odd:
+    content: '{folio}'
+    font-weight: bold
+    text-align: end
+  even:
+    content: '{folio}'
+    font-weight: bold
+    text-align: start
+# ↑ end-footer-setup ↑
+
+style:
+  body:
+    font-family: $font-sans
+    font-size: $font-copysize
+    line-height: 1.5
+    start-indent: 25pt
+  cmdname:
+    color: $brand-color-primary
+    font-weight: bold
+  codeblock:
+    background-color: $brand-color-neutrals-s1
+    border: solid 1pt $brand-color-tertiary
+    font-family: $font-monospaced
+    font-size: 8pt
+    keep-together.within-page: always
+    space-after: 8pt
+  codeph:
+    color: $brand-color-secondary
+  # ↓ set-cover-page ↓
+  # cover:
+    # background-image: ../assets/images/step-results/mg-black-fill-example.png
+    # background-repeat: center
+    # height: 3in
+    # width: 3in
+  cover-title:
+    color: $brand-color-primary
+    font-family: $font-serif
+    font-size: 36pt
+    font-weight: bold
+    line-height: 1.5
+    # space-before: 195mm
+  # ↑ end-cover-page ↑
+  example-title:
+    color: $brand-color-secondary
+  fig:
+    caption:
+      color: $brand-color-secondary
+      font-size: 9pt
+      font-style: italic
+      font-weight: normal
+  filepath:
+    color: $brand-color-secondary
+  h1:
+    font-family: $font-serif
+    border-after: solid 2pt $brand-color-primaryshade-s1
+    color: $brand-color-primary
+    font-size: 18pt
+    space-before: 0pt
+    padding-top: 0pt
+    space-after: 9pt
+    font-weight: bold
+    title-numbering: true
+  h2:
+    font-family: $font-serif
+    border-after: solid 1pt $brand-color-primaryshade-s1
+    color: $brand-color-primary
+    font-size: 16pt
+    font-style: italic
+    space-before: 16pt
+    space-after: 8pt
+    title-numbering: true
+  h3:
+    font-family: $font-serif
+    color: $brand-color-primary
+    font-size: 14pt
+    font-weight: bold
+    space-before: 21pt
+    space-after: 7pt
+  h4:
+    font-family: $font-serif
+    font-size: 12pt
+    font-style: italic
+    space-before: 12pt
+  shortdesc:
+    padding-start: 6pt
+    padding-end: 6pt
+    space-before: 24pt
+    space-after: 24pt
+    start-indent: 6pt
+  li:
+    font-family: $font-sans
+    label:
+      color: $brand-color-primaryshade-s5
+  link:
+    font-family: $font-sans
+    color: $brand-color-secondaryshade-s5
+  note:
+    font-size: 11.5pt
+    background-color: $brand-color-tertiaryshade-s1
+    border: solid 1pt $brand-color-tertiary
+    keep-together.within-page: always
+    label:
+      font-family: $font-sans
+      space-end: 2pt
+    padding-start: 6pt
+    start-indent: '6pt + from-parent(start-indent)'
+    padding-end: 6pt
+    end-indent: '6pt + from-parent(end-indent)'
+    space-before: 6pt
+    space-after: 12pt
+    attention:
+      background-color: $brand-color-tertiaryshade-s1
+    caution:
+      background-color: $brand-color-tertiaryshade-s1
+    important:
+      background-color: $brand-color-tertiaryshade-s1
+    notice:
+      background-color: $brand-color-tertiaryshade-s1
+    restriction:
+      background-color: $brand-color-tertiaryshade-s1
+    tip:
+      background-color: $brand-color-tertiaryshade-s1
+    warning:
+      background-color: $brand-color-tertiaryshade-s1
+  option:
+    color: $brand-color-secondary
+    font-family: $font-monospaced
+    font-weight: bold
+  parmname:
+    color: $brand-color-primary
+    font-family: $font-monospaced
+    font-weight: bold
+  # section-title:
+  #   color: $brand-color-secondary
+  table:
+    caption:
+      color: $brand-color-secondary
+      font-size: 9pt
+      font-style: italic
+      font-weight: normal
+    font-family: $font-sans
+    font-size: 9pt
+    header:
+      background-color: $brand-color-primaryshade-s1
+  toc-1:
+    color: $brand-color-primary
+    font-family: $font-serif
+    start-indent: 0
+  toc-2:
+    color: black
+    space-before: 4pt
+    start-indent: 20pt
+  toc-3:
+    color: black
+    space-before: 2pt
+    start-indent: 42pt
+  toc-4:
+    color: black
+    space-before: 2pt
+    start-indent: 64pt
+  varname:
+    color: $brand-color-secondary
+    font-family: $font-monospaced
+    font-style: italic
+    font-weight: bold
+  xmlatt:
+    color: $brand-color-secondaryshade-s5
+  xmlelement:
+    color: $brand-color-secondaryshade-s5
+  xmlnsname:
+    color: $brand-color-secondaryshade-s5

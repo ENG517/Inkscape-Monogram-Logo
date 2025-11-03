@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_create_shape_builder_grid">
+
+  <title>Create a Shape-Builder Grid</title>
+  <shortdesc>
+    Numerous Inkscape projects will benefit from the creation of a simple grid by which you can more easily and accurately draw paths. Creating a shape-builder grid in Inkscape can best be accomplished with a simple bezier line path and the Interpellation tool.
+  </shortdesc>
+  
+  <taskbody>
+    <prereq>
+      <p class="prereq">
+        Pre-Requirements
+      </p>
+      <p>
+        Before you begin, you will need the following software installed on your computer:
+      </p>
+      <ul>
+        <li>Inkscape</li>
+      </ul>
+    </prereq>
+
+    <steps id="t_steps_create_shape_builder_grid">
+      <step>
+        <cmd>Select the <uicontrol><image href="../assets/images/ui/inkscape-icon-pen.png" width="10px"></image>Pen</uicontrol> path tool, and draw a straight vertical line.</cmd>
+        <substeps>
+          <substep>
+            <cmd>
+              To draw a perfectly straight line, press and hold the <uicontrol>Control</uicontrol> key (Windows/PC and Mac), and click onto the canvas where you want to start the line.
+            </cmd>
+          </substep>
+          <substep>
+            <cmd>
+              On Windows/PC, right-click to release the pen from the canvas and complete the line. On a Mac, press <uicontrol>Shift-Enter</uicontrol> to release the pen from the canvas and complete the line.
+            </cmd>
+          </substep>
+        </substeps>
+        <stepresult>
+          <p>Your line should resemble this output:</p>
+          <image href="../assets/images/step-results/grid-vert-line-result.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Duplicate the line by selecting the path and pressing <uicontrol>Control-D</uicontrol> (Windows/PC) or <uicontrol>Command-D</uicontrol> (Mac).
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Move the duplicated line by pressing and holding <uicontrol>control-Shift</uicontrol>, while dragging the line with your mouse or trackpad to the opposite side of the canvas.
+        </cmd>
+        <stepresult>
+          <image href="../assets/images/step-results/grid-duplicate-line.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Select both lines.
+        </cmd>
+        <stepresult>
+          <image href="../assets/images/step-results/grid-select-all-lines.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          In the top bar menu, select <menucascade> 
+            <uicontrol>Extensions</uicontrol>
+            <uicontrol>Generate from Path</uicontrol>
+            <uicontrol>Interpolate Between Paths</uicontrol>
+          </menucascade>.
+        </cmd>
+        <stepresult>
+          <image href="../assets/images/step-results/grid-interpolate-menu.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          In the <uicontrol>Interpolate Between Paths</uicontrol> dialog box, select the <uicontrol>Live preview</uicontrol> options, so you can decide how many lines to create inbetween your two existing lines.
+        </cmd>
+        <stepresult>
+          <image href="../assets/images/step-results/grid-interpolate-dialog-options.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Select the <uicontrol>Split paths into segements of equal lengths</uicontrol> and choose the values that will best serve your design needs for the <uicontrol>Exponent</uicontrol> and <uicontrol>Interpolation steps</uicontrol> options.
+        </cmd>
+        <stepresult>
+          <note>
+            If you select all of the lines, you can see how Inkscape has grouped the paths into 3 distinct groups: 2 lines and 1 interpolated set of line paths.
+          </note>
+          <image href="../assets/images/step-results/grid-interpolate-grouping-default.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Since we need to create a grid shape with these line paths, we need to ungroup them into individual paths. Select all of the paths, <uicontrol>right-click</uicontrol> the selection, and select <uicontrol>Ungroup</uicontrol>.
+        </cmd>
+        <stepxmp>
+          <image href="../assets/images/step-results/grid-interpolate-ungroup-menu.png" width="150px"></image>
+        </stepxmp>
+        <stepresult>
+          <p>
+            The resulting selection should render the lines as distinct paths.
+          </p>
+          <image href="../assets/images/step-results/grid-interpolate-ungrouped-paths.png" width="150px"></image>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          Select all of the line paths and press <uicontrol>Control-G</uicontrol> (Windows/PC) or <uicontrol>Command-G</uicontrol> (Mac) to group them as one unified group of paths.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Duplicate this same selection of the grouped paths by pressing <uicontrol>Control-D</uicontrol> (Windows/PC) or <uicontrol>Command-D</uicontrol> (Mac).
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          You need to rotate this duplicated selection to create a grid, so click once more onto the selected group to toggle the rotation arrow tools.
+        </cmd>
+        <stepresult>
+          <p>
+            <image href="../assets/images/step-results/grid-change-to-bidir-arrows.png" width="25px"></image> You should now see curved bi-directional arrows at the four corners of the group.
+          </p>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>
+          To rotate the duplicated group, press and hold <uicontrol>Alt-Control</uicontrol>, while pressing one of the corner arrows to rotate the grouped lines 90 degrees.
+        </cmd>
+        <stepresult>
+          <image href="../assets/images/step-results/grid-rotate-lines-1.png" width="150px" align="left"></image> → 
+          <image href="../assets/images/step-results/grid-rotate-lines-2.png" width="150px" align="left"></image>
+        </stepresult>
+      </step>
+      <step importance="optional">
+        <cmd>
+          Based on your design goals, you can duplicate and modify this basic grid to include more grid lines at different angles, or consider alternative grids such as the example below.
+        </cmd>
+        <stepxmp>
+          <image href="../assets/images/step-examples/shape-builder-45-deg-grid.png" width="150px"></image>
+        </stepxmp>
+      </step>
+    </steps>
+  </taskbody>
+</task>

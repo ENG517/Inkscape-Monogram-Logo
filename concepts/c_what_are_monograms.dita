@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_what_are_monograms">
+  <title>What are Monogram Logos?</title>
+  <shortdesc id="c_shortdesc_monogram_difficulties">
+    What makes a monogram logo distinct? And, what is it's basic history?
+  </shortdesc>
+  <conbody>
+    <section>
+      <title>Basic features</title>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga distinctio eos quod voluptate dolorum. Similique obcaecati numquam, accusamus, facilis omnis quam ad, vel est optio dolorum voluptatibus consequatur possimus!
+      </p>
+    </section>
+    <section>
+      <title>Brief history</title>
+      <p>
+        Historically, monograms are rooted in currency (coins) for city names, royalty and family insignia, etc. Currently, monograms are popular in technology, fashion, and chain industries. In short, people, companies, and organizations who use monograms are deemed as "chest puffing."
+      </p>
+    </section>
+  </conbody>
+</concept>

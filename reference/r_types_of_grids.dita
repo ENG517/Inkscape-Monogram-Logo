@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_types_of_grids">
+  <title>Types of Shape-Builder Grids</title>
+  <refbody>
+    <simpletable>
+      <sthead>
+        <stentry>Type of Grid</stentry>
+        <stentry>Shape Affordances</stentry>
+      </sthead>
+      <strow>
+        <stentry>Grid 1</stentry>
+        <stentry>Super duper affordances</stentry>
+      </strow>
+      <strow>
+        <stentry>Grid 2</stentry>
+        <stentry>Super duper affordances</stentry>
+      </strow>
+      </simpletable>
+  </refbody>
+</reference>
