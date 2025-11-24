@@ -38,7 +38,7 @@ colors:
     s3: '#f2cb69'
     s4: '#f0bb34'
     s5: '#e4a80b'
-  neutrals: # No need to change neutrals
+  neutrals: # No need to change neutrals; only in value or saturation
     s1: '#f2f2f2'
     s2: '#e8e9e9'
     s3: '#d1d3d4'
